@@ -1,0 +1,16 @@
+body {
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  padding-top: 60px;
+}
+
+#projects .card {
+  transition: transform 0.3s;
+}
+
+#projects .card:hover {
+  transform: scale(1.05);
+}
